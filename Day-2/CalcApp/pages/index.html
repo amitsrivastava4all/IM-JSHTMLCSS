@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary Calc</title>
+    <link rel="stylesheet" href="../css/custom.css">
+    <script src="../js/model.js"></script>
+    <script src="../js/controller.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><label for="">Salary</label></td>
+            <td><input type="text" placeholder="Type Salary Here" id="salary">
+            <span id="errormsg"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="computeSalary">Compute Salary</button></td>
+            <td><button id="clear">Clear</button></td>
+        </tr>
+    </table>
+    <fieldset class="hideit" id="result">
+        <legend>Salary Details</legend>
+        <table>
+            <tr>
+                <td>HRA</td>
+                <td><span class="clearit" id="hra"></span></td>
+            </tr>
+            <tr>
+                <td>DA</td>
+                <td><span id="da" class="clearit"></span></td>
+            </tr>
+            <tr>
+                <td>TA</td>
+                <td><span id="ta" class="clearit"></span></td>
+            </tr>
+            <tr>
+                <td>PF</td>
+                <td><span id="pf" class="clearit"></span></td>
+            </tr>
+            <tr>
+                <td>NetSalary</td>
+                <td><span id="ns" class="clearit"></span></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>

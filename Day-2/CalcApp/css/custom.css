@@ -1,0 +1,9 @@
+.hideit{
+display: none;
+}
+.showit{
+    display: block;
+}
+.error{
+color: red;
+}
